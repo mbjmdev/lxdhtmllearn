@@ -1,0 +1,36 @@
+.eva-h1{
+    background-color: chartreuse;
+}
+
+p{
+    background-color: chocolate !important;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.rose-img{
+    width: 250px;
+    border: 4mm ridge #f542b6;
+}
