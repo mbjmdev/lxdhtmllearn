@@ -6,6 +6,16 @@ p{
     background-color: chocolate !important;
 }
 
+.hello{
+    background-color: brown; 
+    font-size: 25px; 
+    color: white;
+}
+
+.hello-background{
+    background-color: rebeccapurple !important;
+}
+
 a:link {
     color: green;
     background-color: transparent;
