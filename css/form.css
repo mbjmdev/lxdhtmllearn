@@ -1,0 +1,20 @@
+label{
+    font-size: 30px;
+}
+
+input, select{
+    font-size: 30px;
+    margin-left:150px
+}
+
+select{
+    width: 450px;
+}
+
+div{
+    margin-top: 35px;
+}
+
+span{
+    font-size: 30px;
+}

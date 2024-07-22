@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Table & Few Elements
+        </title>
+        <link rel="stylesheet" href="css/form.css" />
+    </head>
+    <body>
+        <h3>Forms</h3>
+        <form method="post" action="about.html">
+            <div>
+                <label for="myname">Enter Your Name</label>
+                <input type="text" name="myname" id="myname" placeholder="Enter your name" value="" required/>
+            </div>
+            <div>
+                <label for="myage">Enter Your Age</label>
+                <input type="number" name="myage" id="myage" placeholder="Enter your age" value="" />
+            </div> 
+            <div>
+                <label for="qualification">Select Your Qualification</label>
+                <select name="qualification" id="qualification">
+                    <option>Select your qualification</option>
+                    <option value="pg">PG</option>
+                    <option value="ug">UG</option>
+                    <option value="12">12th</option>
+                    <option value="10">10th</option>
+                </select>
+            </div>  
+            <div>
+                <label for="gender">Select Your Gender</label>
+                <input type="radio" name="gender" value="Male"> <span>Male</span>
+                <input type="radio" name="gender" value="Female"> <span>Female</span>
+            </div>    
+            <div>
+                <label for="transport">Favourite mode of transport</label>
+                <input type="checkbox" name="transport" value="Car"> <span>Car</span>
+                <input type="checkbox" name="transport" value="Bus"> <span>Bus</span>
+                <input type="checkbox" name="transport" value="Bike"> <span>Bike</span>
+                <input type="checkbox" name="transport" value="Bicycle"> <span>Bicycle</span>
+            </div>
+            <input type="submit" name="Submit"/>   
+        </form>
+    </body>
+</html>

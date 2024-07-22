@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="css/learn.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My First Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the homepage of my first website. I'm learning HTML and CSS!</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Here you can find more information about me and this website.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out if you have any questions.</p>
+        </section>
+
+        <section>
+            <h2>Unordered List</h2>
+            <ul class="menu-test">
+                <li>Eva</li>
+                <li>Arunachal College</li>
+                <li>Velichanthai</li>
+            </ul>
+
+            <h2>Ordered List</h2>
+            <ol>
+                <li>Eva</li>
+                <li>Arunachal College</li>
+                <li>Velichanthai</li>
+            </ol>
+        </section>
+
+        <section>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/19peC3L4-pA?si=I0PXaOTHmKtaq0wp" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
+            >
+            </iframe>
+        </section>
+
+        <section>
+            <audio controls>
+                <source src="asset/audio.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+
+            <video width="320" height="240" controls>
+                <source src="asset/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <picture>
+                <source media="(min-width:650px)" srcset="./img/rose.jpg">
+                <source media="(min-width:465px)" srcset="./img/car.webp">
+                <img src="./img/rose.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My First Website</p>
+    </footer>
+</body>
+</html>

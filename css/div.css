@@ -1,0 +1,10 @@
+.div-1{
+    border: 2px solid rebeccapurple;
+    margin-bottom: 50px;
+    width:300px;
+    display: inline-block;
+}
+
+.span-1{
+    border: 2px solid rebeccapurple;
+}

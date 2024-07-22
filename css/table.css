@@ -1,0 +1,13 @@
+table {
+    width: 400px;
+    font-size: 35px;
+}
+
+table, tr, td{
+    border: 2px ridge rebeccapurple;
+}
+
+.highlight{
+    background-color: chocolate;
+    color:#fff;
+}
